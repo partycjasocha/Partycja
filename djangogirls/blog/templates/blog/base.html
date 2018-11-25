@@ -1,0 +1,35 @@
+{% load static %}
+<html>
+    <head>
+        <title>Blog</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    </head>
+    <body>
+  <div class="page-header">
+        <h1><a href="/">POGODA</a></h1>
+    </div>
+    <div class="content container">
+        <div class="row">
+            <div class="col-md-8">
+            {% block content %}
+            {% endblock %}
+            </div>
+        </div>
+    </div>
+	        <div>
+            <p>published: 14.06.2014, 12:14</p>
+            <h2><a href="">Zima 2019</a></h2>
+            <p>Kiedy spadnie śnieg i czy zbliżająca się zima będzie biała? Takie pytanie zadaje sobie wielu z nas. To, kiedy spadnie śnieg jest ważne m.in. dla miłośników narciarstwa, rodziców planujących zimowy wyjazd swoich pociech, a także dla kierowców.</p>
+			
+        </div>
+
+        <div>
+            <p>published: 14.06.2014, 12:14</p>
+            <h2><a href="">Pierwszy śnieg już w Olsztynie</a></h2>
+            <p>Listopad jeszcze nie zdążył się zacząć, a już na koniec października pierwszy śnieg spadł w Olsztynie. W poniedziałek mieszkańców Olsztyna powitała cienka warstwa białego puchu.</p>
+        </div>
+    </body>
+</html>

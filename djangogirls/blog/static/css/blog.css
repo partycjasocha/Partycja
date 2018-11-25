@@ -1,0 +1,36 @@
+p {
+    font-size: 20px;
+    font-family: Arial, Verdana, sans-serif;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+
+header {
+    color: black;
+    text-align: center; 
+    font-family: arial, verdana, sans-serif; 
+    font-style: italic; 
+    font-size: 30px;
+}
+h1 {
+	    color: black;
+    text-align: center; 
+    font-family: arial, verdana, sans-serif; 
+    font-style: italic; 
+    font-size: 30px;
+	background-color: silver;
+
+}
+
+
+
+body {
+    background-color: white;
+	}
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
